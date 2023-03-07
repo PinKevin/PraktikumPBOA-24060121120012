@@ -8,17 +8,17 @@
 public class MOperasiTitik {
     public static void main(String[] args) {
         Titik titik;
-		OperasiTitik OT;
+		OperasiTitik ot;
 		
 		titik = new Titik(4.0, 4.0);
-		OT = new OperasiTitik();
+		ot = new OperasiTitik();
 		
 		System.out.println("titik(" + titik.getAbsis() + ", " + titik.getOrdinat() + ")");
 		
-		OT.refleksiX(titik);
+		ot.refleksiX(titik);
 		System.out.println("titik setelah refleksi sb X: titik(" + titik.getAbsis() + ", " + titik.getOrdinat() + ")");
 
-		OT.refleksiY(titik);
+		ot.refleksiY(titik);
 		System.out.println("titik setelah refleksi sb Y: titik(" + titik.getAbsis() + ", " + titik.getOrdinat() + ")");
     }
 } 
